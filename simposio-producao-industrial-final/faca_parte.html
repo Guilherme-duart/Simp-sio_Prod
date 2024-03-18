@@ -1,0 +1,333 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="author"
+    content="Aline Evangelista da Silva, Daniela Bursi, Douglas Roberto Bordinassi, Guilherme Duarte, Vinícius Rodrigues da Silva,Yan Mantovani da Rocha">
+  <meta name="description"
+    content="Simpósio de Física Aplicada À Produção Industrial. Projeto desenvolvido para o 2º Semestre de Sistemas para Internet.O Website foi criado utilizando HTML, SASS, JavaScript e Animações.">
+  <meta name="keywords" content="simpósio, projeto, inovação, tecnologia, produção industrial, Fatec, Taquaritinga">
+
+
+  <title>Simpósio Produção Industrial - Fatec</title>
+  <link rel="shortcut icon" href="img/Logo-verde.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="/js/svg-inject.min.js"></script>
+</head>
+
+<body>
+  <!-- VLIBRAS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="header">
+    <!-- NAVBAR MOBILE -->
+    <nav class="navbar-mobile">
+      <div class="hamburguer" id="hamburguer"></div>
+      <div class="logo">
+        <a href="">
+          <img src="/svg/Logo-minimalista.svg" alt="Logo minimalista do simpósio da produção industrial"
+            onload="SVGInject(this)" />
+        </a>
+      </div>
+    </nav>
+
+    <!-- NAVBAR DESKTOP -->
+    <nav class="navbar-desktop" data-aos="fade-up" data-aos-delay="100">
+      <div class="navbar-desktop-item-1">
+        <div class="logo">
+          <a href="inicio.html">
+            <img src="/svg/Logo-minimalista.svg" alt="Logo minimalista do simpósio da produção industrial"
+              onload="SVGInject(this)" />
+          </a>
+        </div>
+        <ul class="menu-desktop">
+
+          <a href="inicio.html" class="nav-link-desktop">Início</a>
+
+
+          <a href="quem_somos.html" class="nav-link-desktop">Idealizadores</a>
+
+
+
+          <a href="projetos.html" class="nav-link-desktop">Projetos</a>
+
+
+
+          <a href="contatos.html" class="nav-link-desktop">Contato</a>
+
+
+
+        </ul>
+      </div>
+      <div class="navbar-desktop-item-1">
+        <a href="faca_parte.html" class="btn mr-2">Quero fazer parte</a>
+      </div>
+    </nav>
+
+    <!-- MENU MOBILE -->
+    <nav class="menu-mobile" id="menu-mobile">
+      <ul class="nav-list-mobile">
+        <li class="mb-1"><a href="" class="nav-link-mobile">Início</a></li>
+        <li class="mb-1">
+          <a href="" class="nav-link-mobile">Projetos</a>
+        </li>
+        <li class="mb-1"><a href="" class="nav-link-mobile">Idealizadores</a></li>
+        <li class="mb-1">
+          <a href="" class="nav-link-mobile">Contato</a>
+        </li>
+        <li class="mb-1">
+          <a href="" class="nav-link-mobile">Faça parte</a>
+        </li>
+        <li class="mt-3 flex-center">
+          <a href="">
+            <img class="mx-1" src="/svg/icon-facebook.svg" alt="Ícone Facebook" onload="SVGInject(this)" />
+          </a>
+          <a href="">
+            <img class="mx-1" src="/svg/icon-instagram.svg" alt="Ícone Instagram" onload="SVGInject(this)" />
+          </a>
+          <a href="">
+            <img class="mx-1" src="/svg/icon-youtube.svg" alt="Ícone Youtube" onload="SVGInject(this)" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <div class="bg-home">
+    <img class="svg-bg-home" src="/svg/bg-home.svg" alt="Imagem de fundo." />
+    <img class="svg-bg-home-logo" src="/svg/svg-bg-home-logo.svg" alt="Logo simpósio da produção industrial" />
+  </div>
+
+  <main class="container hero py-5">
+    <div class="flex-item-1 py-3" data-aos="fade-up" data-aos-delay="200">
+      <h1>Você tem o desejo de desenvolver seus projetos?</h1>
+      <p class="my-2">
+        Descubra logo a baixo sobre como você pode desenvolver suas ideias, resolver a necessidade de alguma empresa ou
+        ajudando aquele que mais precisa de um suporte!
+      </p>
+      <div class="flex-start">
+        <a href="#" class="btn">Quero fazer parte</a>
+        <p><a href="" class="link">Saiba mais</a></p>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- BEST SECTION -->
+  <section class="container box">
+    <div class="best best-bottom px-3 py-4" data-aos="fade-up" data-aos-delay="250">
+      <div class="flex-item-auto">
+        <h5>Participar</h5>
+        <h2>É simples. <br> É prático.</h2>
+      </div>
+      <div class="best-item flex-item-auto">
+        <img class="icon w-auto" src="/svg/Ponto.svg" alt="Ícone representando a localização para inscrever-se no vestibular da Fatec Taquaritinga." />
+        <p class="mt-2 bold best-align">Se inscrever no<br>vestibulinho Fatec.</p>
+      </div>
+
+      <img class="icon w-auto" src="/svg/Passo-seta.svg" alt="Seta indicando o próximo passo" />
+
+      <div class="best-item flex-item-auto">
+        <img class="icon w-auto" src="/svg/PI-icone.svg" alt="ícone referente ao curso da produção industrial" />
+        <p class="mt-2 bold  best-align">Cursar Produção<br>Industrial na Fatec<br>Taquaritinga</p>
+      </div>
+
+      <img class="icon w-auto" src="/svg/Passo-seta.svg" alt="Seta indicando o próximo passo" />
+
+      <div class="best-item flex-item-auto">
+        <img class="icon w-auto" src="/svg/Luz-acesa.svg" alt="ícone representando um surgimento de ideia. Sua ideia é nossa ideia." />
+        <p class="mt-2 bold best-align">Mostrar sua ideia <br>aos professores<br>responsáveis</p>
+      </div>
+      <img class="icon w-auto" src="/svg/Passo-seta.svg" alt="Seta indicando o próximo passo" />
+      <div class="best-item flex-item-auto">
+        <img class="icon w-auto" src="/svg/Marreta-icone.svg" alt="ícone representando a ação de desenvolver projetos." />
+        <p class="mt-2 bold best-align">Botar a mão<br>na massa!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PEOPLE SECTION -->
+  <section class="container">
+    <div class="flex-item-4 flex-column" data-aos="fade-up" data-aos-delay="0">
+      <h5>Metodologia</h5>
+      <h2 class="mt-2 mt-2-50">Como funciona?</h2>
+      <p class="my-2">
+        O “Simpósio de Física Aplicada à Produção Industrial” é realizado em duas etapas. Sendo que a primeira etapa
+        ocorre durante o primeiro mês de aula, os alunos são divididos em duplas, onde desenvolvem um trabalho escrito
+        contendo a descrição do dia-a-dia de um profissional inserido na área de Produção Industrial. Através desta
+        descrição, as duplas são motivadas a descrever quais conceitos físicos são capazes de observar em dada linha de
+        produção ou processo. Com isso, entregam um trabalho escrito, corrigidos e formatados segundo às normas da ABNT.
+        Nesta etapa os professores responsáveis pelas disciplinas de Metodologia e Informática, auxiliam os alunos na
+        formatação.
+      </p>
+
+    </div>
+    <img src="/svg/Dois-users-icon.svg" alt="" class="Imagem representando as pessoas que acessam o site." />
+  </section>
+
+  <section class="container">
+    <img src="/svg/Like-e-medal.svg" alt="Ícones representando aprovação e ganhos futuros com o curso." class="" />
+    <div class="flex-item-4 flex-column" data-aos="fade-up" data-aos-delay="0">
+      <h5>Seleção</h5>
+      <h2 class="mt-2 mt-2-50">Colher frutos.</h2>
+      <p class="my-2">
+        Dos trabalhos entregues, são selecionados os melhores contextualizados e melhores focados no objetivo principal,
+        que serão submetidos à segunda fase. Esta fase final, será desenvolvida no último mês do curso de Física
+        Aplicada, onde os alunos são divididos em grupos maiores e inseridos aos trabalhos selecionados da primeira
+        fase.
+      </p>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="flex-item-4 flex-column" data-aos="fade-up" data-aos-delay="0">
+      <h5>Resultado</h5>
+      <h2 class="mt-2 mt-2-50">Reta final.</h2>
+      <p class="my-2">
+        Estes trabalhos serão refeitos e apresentados em forma de pôster, em apresentação oral com destaque à algum
+        experimento prático na área de um conceito físico pré-selecionado. Durante a apresentação os recursos
+        audiovisuais (slides, vídeos, internet, entre outros.) são explorados, além da execução dos experimentos
+        práticos usando materiais de uso cotidiano e recicláveis. Esta apresentação é feita na data do Simpósio, e
+        submetida à uma banca avaliadora composta pelo diretor da instituição, coordenador do curso, docente da
+        disciplina e docentes do curso. Os trabalhos são classificados e premiados em 1º, 2º e 3º colocados, e todos os
+        alunos são avaliados individualmente pelo professor da disciplina de “Física Aplicada” com uma nota que compõem
+        as notas bimestrais da disciplina.
+      </p>
+
+    </div>
+    <img src="/svg/Rotas-final.svg" alt="" class="ícones representando a etapa final do curso de produção industrial e suas vantagens." />
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <section class="container flex-start flex-top">
+      <div class="ml-4">
+        <h4>Início</h4>
+        <ul class="list mt-2 pt2">
+          <li><a href="">Para todos</a></li>
+          <li><a href="">Simpósio</a></li>
+          <li><a href="">Depoimentos</a></li>
+        </ul>
+      </div>
+
+      <div class="ml-4">
+        <h4>Projetos</h4>
+        <ul class="list mt-2 pt2">
+          <li><a href="">Apresentação</a></li>
+          <li><a href="">Protótipos desenvolvidos</a></li>
+          <li><a href="">Protótipos em desenvolvimento</a></li>
+          <li><a href="">Conheça</a></li>
+        </ul>
+
+      </div>
+
+      <div class="ml-4">
+        <h4>Equipe</h4>
+        <ul class="list mt-2 pt2">
+          <li><a href="">Edição</a></li>
+          <li><a href="">Integrantes</a></li>
+          <li><a href="">História</a></li>
+        </ul>
+      </div>
+
+      <div class="ml-4">
+        <h4>Faça parte</h4>
+        <ul class="list mt-2 pt2">
+          <li><a href="">Convite</a></li>
+          <li><a href="">Participar</a></li>
+          <li><a href="">Metodologia</a></li>
+          <li><a href="">Seleção</a></li>
+          <li><a href="">Resultado</a></li>
+          <li><a href="">Benefícios</a></li>
+        </ul>
+      </div>
+
+      <div class="ml-4">
+        <h4>Contato</h4>
+        <ul class="list mt-2 pt2">
+          <li><a href="">Enviar e-mail</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container flex-space-between py-3 bt-purple">
+      <div class="flex-center">
+        <img style="max-width: 96px" src="svg/logo-preenchida.svg" alt="Imagem logo simpósio da produção industrial, versão para o rodapé da página." onload="SVGInject(this)" />
+        <p class="ml-2">
+          Simpósio de Física Aplicada à Produção Industrial <br />
+          Av. Dr. Flávio Henrique Lemos, 585 <br />
+          Portal Itamaracá - Taquaritinga,SP - 15906-522
+        </p>
+      </div>
+      <div class="flex-start">
+        <p class="ml-2">
+          Telefone: (16) 3252-5250 <br />
+          Secretaria Acadêmica: secretaria@fatectq.edu.br <br />
+          Diretoria de Serviços: admtaqua@fatectq.edu.br <br />
+          Direção: f022dir@cps.sp.gov.br
+        </p>
+      </div>
+    </section>
+
+    <section class="container space-evenly py-3 bt-purple">
+      <img style="max-width: 96px;filter: brightness(15);" src="svg/logoFatec.svg" alt="Logo da Fatec Taquaritinga" />
+
+      <img style="max-width: 96px;filter: brightness(15);" src="svg/logoCPS.svg" alt="Logo do Centro Paula Souza" />
+    </section>
+  </footer>
+
+  <!-- VLIBRAS -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <!-- SCRIPTS -->
+  <script src="js/app.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      easing: "ease-out-quart",
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+  <script>
+    const swiper = new Swiper(".swiper-container", {
+      slidesPerView: "auto",
+      spaceBetween: 40,
+      grabCursor: true,
+      pagination: {
+        el: "swiper-pagination",
+        clickable: true,
+        type: "progressbar",
+      },
+      navigation: {
+        nextEl: ".button-next",
+        prevEl: ".button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>
